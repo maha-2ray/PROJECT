@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    background-color: #5bade8;
+    padding: 10px;
+    margin: 10px;
+}
+.services{
+    padding: 10px;
+    background-color: #fff;
+}
+.services h1{
+    color: #5bade8;
+}
+#box{
+    display: flex;
+    background-image: url('services.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    overflow: hidden;
+    height: 100vh;
+}
+.box5{
+    position: absolute;
+    left: 0;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+#box h3{
+    box-shadow: 3px 0px 2px #333;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#box img{
+    border-radius: 30px;
+    width: 100px;
+    margin-top: 40px;
+}
+.box3 img{
+    width: 150px;
+}
+#projects{
+    display: flex;
+    background-color: #fff;
+    height: 50vh;
+    padding: 20px;
+}
+#projects .no-of-projects, .experience, .clients, .partners{
+    width: 200px;
+    margin: 40px;
+    border-radius: 40px;
+    height: 200px;
+    box-shadow: 1px 1px 1px #333;
+}
+#projects h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+#projects h3  p{
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    background-color: #333;
+    padding: 20px;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form, .contacts, .footer-service{
+    display: block;
+    width: 400px;
+}
+.form h4, .contacts h4, .contacts h5, .footer-service h4{
+    color: #5bade8;
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-right: 50px;
+}
+#submit{
+    border-radius: 40px;
+    background-color: #5bade8;
+    width: 70px;
+    height: 30px;
+    border-style: none;
+    position: absolute;
+    left: 0;
+    margin: 95px 20px;
+}
+.contacts{
+    height: auto;
+}
+.contacts h4{
+    text-align: center;
+}
+.contacts h5, .footer-service h4{
+    text-align: center;
+}
+.contacts p, .contacts h5 li, .footer-service h4 p{
+    font-size: 15px;
+    color: #b7b1b1;
+}
+.contacts ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+h5 p{
+    margin-top: 100px;
+    color: #403f3f;
+    font-size: 16px;
+    
+}
+@media only screen and (max-width: 600px){
+    .services h1, .services p{
+        text-align: center;
+    }
+    #box h3{
+        width: 75px;
+        height: 100px;
+        font-size: 10px;
+    }
+    #box img{
+        width: 50px;
+    }
+    .box4{
+        position: absolute;
+        left: 0;
+        margin-top: 300px;
+        margin-left: 170px;
+    }
+    footer{
+        display: block;
+        height: auto;
+    }
+    #projects .no-of-projects, .experience, .clients, .partners{
+        height: 100px;
+    }
+    #projects h3{
+        width: 150px;
+        font-size: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #projects h3  p{
+        font-size: 16px;
+    }
+    .no-of-projects{
+        width: 100px;
+    }
+    .clients{
+        position: absolute;
+        left: 0;
+        margin-top: 200px;
+        margin-left: 70px;
+        width: 150px;
+    }
+    .partners{
+        position: absolute;
+        left: 0;
+        margin-top: 200px;
+        width: 150px;
+        margin-left: 300px;
+    }
+    .form{
+        margin-left: 100px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    #submit{
+        margin-left: 120px;
+    }
+}
+@media (max-width: 900px) and (min-width: 601px){
+    footer{
+        display: block;
+        height: auto;
+    }
+    .form{
+        margin-left: 200px;
+        margin-bottom: 70px;
+    }
+    #submit{
+        margin-left: 220px;
+    }
+    .services h1, .services p{
+        text-align: center;
+    }
+    .box4{
+        position: absolute;
+        left: 0;
+        margin-top: 300px;
+        margin-left: 200px;
+    }
+    #box h3{
+        width: 100px;
+        height: 100px;
+        font-size: 16px;
+    }
+    #box img{
+        width: 60px;
+        margin-top: 0px;
+    }
+    #projects h3{
+        margin-top: 40px;
+        font-size: 30px;
+        text-align: center;
+        height: 20px;
+        width: 120px;
+    }
+    #projects .no-of-projects, .experience, .clients, .partners{
+        height: 120px;
+    }
+    #projects h3  p{
+        font-size: 16px;
+    }
+    .partners{
+        position: absolute;
+        left: 0;
+        margin-top: 200px;
+        width: 130px;
+        margin-left: 70px;
+    }
+    .contacts, .footer-service{
+        margin-left: 90px;
+    }
+}

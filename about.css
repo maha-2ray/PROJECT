@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    background-color: #5bade8;
+    padding: 10px;
+    margin: 10px;
+}
+.history{
+    background-color: #fff;
+    padding: 10px;
+}
+.history h1{
+    color: #5bade8;
+}
+.team{
+    display: flex;
+    background-image: url('team.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    color: #333;
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.team h3{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    left: 40%;
+    color: #5bade8;
+}
+.member-ceo, .member-lead, .member-junior, .treasurer{
+    border-radius: 50px;
+    background-color: #333;
+    width: 230px;
+    height: 230px;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 20px;
+    position: relative;
+    background-image: url('maha.jpg');
+    background-size: cover;
+    /*box-shadow: 5px 5px 5px #333;*/
+}
+.member-ceo p, .member-lead p, .member-junior p, .treasurer p{
+    background-color: #fff;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.member-lead{
+    background-image: url('omar.jpg');
+    background-size: cover;
+}
+.member-junior{
+    background-image: url('begay.jpg');
+    background-size: cover;
+
+}
+.accountant{
+    background-image: url('bigmo.jpg');
+    background-size: cover;
+}
+.treasurer{
+    background-image: url('kalleh.jpg');
+    background-size: cover;
+}
+.research{
+    background-image: url('robben.jpg');
+    background-size: cover;
+}
+.secretary{
+
+    background-image: url('binta.jpg');
+    background-size: cover;
+}
+.tell-us{
+    padding: 0px;
+    width: 200px;
+    /* position: absolute;
+    right: 0; */
+    margin-bottom: 0;
+    margin-top: 5px;
+    background-size: cover;
+    height: 100px;
+}
+form h3, .contact-us h3, .contact-us h5, .service h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5bade8;
+    font-size: 30px;
+}
+.contact-us{
+    margin-left: 70px;
+}
+.contact-us h3{
+    margin-top: 5px;
+    text-align: center;
+}
+.contact-us h5{
+    text-align: center;
+}
+.service{
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+.copy-right{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    color: #fff;
+}
+input{
+    margin: 10px;
+    width: 250px;
+    height: 20px;
+    border-style: none;
+    border-color: #fff;
+}
+textarea{
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    margin-left: 13px;
+    height: 30px;
+    width: 75px;
+    background-color: #5bade8;
+    border-radius: 40px;
+    border-style: none;
+    margin-top: 10px;
+}
+footer{
+    background-color: #333;
+    height: 650px;
+    width: 100%;
+    display: flex;
+}
+footer .contact-us{
+    position: absolute;
+    right: 0;
+    height: 320px;
+    width: auto;
+    padding: 40px;
+    margin-left: 30px;
+}
+@media only screen and (max-width: 768px){
+     .history h1, .history p{
+        text-align: center;
+    }
+    
+    .team{
+        display: flex;
+    }
+    
+    .team h3{
+        position: absolute;
+        top: 2;
+        text-align: center;
+        margin-right: 200px;
+        margin-top: 0;
+    }
+    
+    .member-ceo, .member-lead, .member-junior, .treasurer{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .member-ceo p, .member-lead p, .member-junior p, .treasurer p{
+        width: 94px;
+        font-size: 10px;
+    }
+    
+    footer{
+        display: flex;
+        height: 500px;
+        width: auto;
+        margin-left: 0;
+    }
+    
+    form{
+        margin-right: 50px;; 
+    }
+    
+    input, textarea{
+        margin-right: 10px;
+        width: 120px;
+    }
+    .tell-us{
+        width: 200px;
+
+    }
+    .tell-us h3{
+        font-size: smaller;
+        text-align: center;
+    }
+    
+    footer .contact-us{
+        margin-top: 0;
+        text-align: center;
+        margin-left: 5px;
+        width: auto;
+        height: auto;
+    } 
+    .contact-us h3, .contact-us p, .contact-us h5{
+        font-size: smaller;
+        text-align: center;
+    }
+    
+
+}
+@media (max-width: 900px) and (min-width: 601px){
+    .member-ceo, .member-lead, .member-junior, .treasurer{
+            height: 170px;
+    }
+    .member-ceo p, .member-lead p, .member-junior p, .treasurer p{
+            width: 125px;
+            text-align: center;
+         }
+    }
